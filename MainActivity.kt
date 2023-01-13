@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                 val first = et1.text.toString().toInt()
                 val second = et2.text.toString().toInt()
                 val end = AddStuff.multiply(first, second)
-                tvSonuc.setText("" + end)
+                tvSonuc.text("" + end)
 
 
             }
